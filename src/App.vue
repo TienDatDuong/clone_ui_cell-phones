@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
+import { Icon } from '@iconify/vue';
 </script>
 
 <template>
@@ -14,6 +15,8 @@ import HelloWorld from "./components/HelloWorld.vue";
   <HelloWorld msg="Vite + Vue" />
   <n-button type="success"> Success </n-button>
   <span class="color-red">1231231</span>
+  ----
+  <Icon icon="mdi:magnify" class="text-16px mr-2" />
 </template>
 
 <style scoped>
